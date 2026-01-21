@@ -5,7 +5,7 @@ import { registry } from "@web/core/registry";
 import { rpc } from "@web/core/network/rpc";
 
 export class PartnerListing extends Component {
-    static template = 'todo_app.PartnerListing';
+    static template = 'portal_partners.PartnerListing';
     setup(){
         this.state = useState({
             partners: [],
@@ -48,4 +48,4 @@ export class PartnerListing extends Component {
     }
 }
 
-registry.category('public_components').add('todo_app.PartnerListing', PartnerListing);
+registry.category('public_components').add('portal_partners.PartnerListing', PartnerListing);

@@ -1,6 +1,6 @@
 {
-    "name": "Todo app",
-    'summary': "Todo app description",
+    "name": "Portal Partners",
+    'summary': "show Parterns in Portal",
     'odoo_version': '18.0.0',
     'version': '1.0.0',
     'depends':['website','contacts'],
