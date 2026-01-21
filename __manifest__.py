@@ -10,8 +10,8 @@
     ],
     'assets':{
         'web.assets_frontend':[
-            "/todo_app/static/src/js/partner_listing.js",
-            "/todo_app/static/src/xml/partner_listing.xml"
+            "/portal_partners/static/src/js/partner_listing.js",
+            "/portal_partners/static/src/xml/partner_listing.xml"
         ]
     },
     'installable': True,
