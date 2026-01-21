@@ -4,7 +4,7 @@ from odoo.http import request
 class PartnerController(http.Controller):
     @http.route("/partners", type="http", auth='public', website=True)
     def partner_listining_page(self, **kwargs):
-        return request.render("todo_app.partner_listing_page")
+        return request.render("portal_partners.partner_listing_page")
 
     @http.route("/partners/data", type='json', auth='public', website=True)
     def get_partners(self):

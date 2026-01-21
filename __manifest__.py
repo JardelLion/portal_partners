@@ -1,6 +1,6 @@
 {
-    "name": "Todo app",
-    'summary': "Todo app description",
+    "name": "Portal Partners",
+    'summary': "show Parterns in Portal",
     'odoo_version': '18.0.0',
     'version': '1.0.0',
     'depends':['website','contacts'],
@@ -10,8 +10,8 @@
     ],
     'assets':{
         'web.assets_frontend':[
-            "/todo_app/static/src/js/partner_listing.js",
-            "/todo_app/static/src/xml/partner_listing.xml"
+            "/portal_partners/static/src/js/partner_listing.js",
+            "/portal_partners/static/src/xml/partner_listing.xml"
         ]
     },
     'installable': True,

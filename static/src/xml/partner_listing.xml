@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <templates xml:spce="preserve">
-    <t t-name="todo_app.PartnerListing" owl="1">
+    <t t-name="portal_partners.PartnerListing" owl="1">
       <div class="partner-listing">
             <!-- Search and View Toggle -->
             <div class="controls mb-4 d-flex">
